@@ -1,1 +1,12 @@
-
+﻿variable,type,description
+year,integer,year of observation
+county,character,county in California
+hospital,character,hospital in California
+oshpd_id,character,unique ID established by OSHPD
+procedure_condition,character,procedure performed or condition treated
+ramr,numeric,Risk Adjusted Mortality Rates (RAMR)
+num_of_deaths,integer,number of deaths in hospital
+num_of_cases,integer,number of cases in hospital
+hospital_ratings,character,rating based on 95% CI
+longitude,numeric,longitude of hospital
+latitude,numeric,latitude of hospital
